@@ -1,6 +1,8 @@
-# Chuck Norris Jokes Generater
+# Chuck Norris Jokes Generator
 
 # Project Link
+
+https://suspicious-northcutt-860d12.netlify.com/
 
 # Project Description
 
