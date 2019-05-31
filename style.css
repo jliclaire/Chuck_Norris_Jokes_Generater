@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin: 20px auto;
+}
+
+button {
+  color: #f15a24;
+  border: 1px solid #f15a24;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  color: #f15a24;
+  background: #000;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 2rem;
+}
+
+.loading {
+  color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  font-size: 30px;
+}
+
+@keyframes example {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
